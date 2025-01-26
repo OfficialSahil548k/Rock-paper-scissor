@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissor</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissor</h1>
+    </header>
+    <div class="container">
+     <button><img src="images/rock.png" id="rock" class="choice" height="150px" width="150px" alt="rock" /></button>
+     <button><img src="images/paper.png" id="paper" class="choice" height="150px" width="150px" alt="paper" /></button>
+     <button><img src="images/scissors.png" id="scissor"class="choice" height="150px" width="150px" alt="scissor" /></button>
+    </div>
+    <div class="score_card">
+        <div class="score">
+            <pre><p id="user-score"> 0</p></pre>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <pre><p id="comp-score">  0</p></pre>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div id="sentence">
+        <div class="box">
+            <p id="msg">Choose one of them</p>
+        </div>
+    </div>
+    <footer>
+      <p>All the Rights are holded by the Respective owner @ Sahil Sharma.</p>
+    </footer>
+  </body>
+  <script src="game.js"></script>
+</html>
